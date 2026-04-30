@@ -1,142 +1,459 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects — Shakil Md. Rezwanul Bari</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Projects - Detailed case studies of Shakil's cybersecurity initiatives and enterprise security solutions.">
+    <title>Projects - Shakil Md. Rezwanul Bari</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <nav class="navbar"><div class="nav-container"><a href="index.html" class="nav-logo">Shakil<span>Bari</span></a><ul class="nav-links" id="navLinks"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="expertise.html">Expertise</a></li><li><a href="impact.html">Impact</a></li><li><a href="projects.html" class="active">Projects</a></li><li><a href="workforce.html">Workforce</a></li><li><a href="blog/index.html">Blog</a></li><li><a href="contact.html">Contact</a></li></ul><div class="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></div></div></nav>
-
-  <div class="page-header">
-    <h1>Projects</h1>
-    <p>Cross-sector cybersecurity defense engagements demonstrating replicable methodology development</p>
-  </div>
-
-  <section class="section">
-    <div class="container">
-      <div class="case-study">
-        <div class="case-study-header">
-          <h3>Multi-Sector Client Security Program</h3>
-          <span class="sector-badge">Cloud Technology | International Development | Financial Services</span>
-        </div>
-        <div class="case-study-content">
-          <div>
-            <h4>Challenge</h4>
-            <p>Simultaneously securing three clients across different industry verticals &mdash; cloud infrastructure (Cloud Himalaya), international development (IDRA, a World Bank project), and financial services (BA Express) &mdash; each with distinct threat profiles, regulatory requirements, and operational constraints.</p>
-            <h4>Approach</h4>
-            <p>Developed industry-agnostic defense frameworks adaptable to each sector's unique requirements. Implemented AI-powered SIEM/SOAR integration using Splunk and Cortex XSOAR with sector-specific correlation rules. Deployed Zero Trust Architecture per NIST principles across all client environments. Created custom CSPM policies using Wiz, Prisma Cloud, and Microsoft Defender for Cloud.</p>
-          </div>
-          <div>
-            <h4>Innovations Deployed</h4>
-            <ul>
-              <li>AI-powered SIEM/SOAR integration methodology</li>
-              <li>Zero Trust Architecture with Continuous Trust Monitoring</li>
-              <li>Custom CSPM policies for multi-cloud environments</li>
-              <li>AI-based deception technologies and UEBA integration</li>
-              <li>MITRE D3FEND-aligned playbooks for each sector</li>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="index.html" class="logo">SRB</a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link">About</a></li>
+                <li><a href="experience.html" class="nav-link">Experience</a></li>
+                <li><a href="projects.html" class="nav-link active">Projects</a></li>
+                <li><a href="publications.html" class="nav-link">Publications</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
             </ul>
-            <h4>Results</h4>
-            <ul>
-              <li>60% reduction in incident response time</li>
-              <li>70% increase in threat mitigation efficiency</li>
-              <li>40% reduction in false positives</li>
-              <li>50% response time reduction via deception/UEBA</li>
-              <li>30% faster analyst onboarding across all clients</li>
-            </ul>
-          </div>
+            <button class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
         </div>
-      </div>
+    </nav>
 
-      <div class="case-study">
-        <div class="case-study-header">
-          <h3>Banking Sector Cybersecurity Transformation</h3>
-          <span class="sector-badge">Financial Services</span>
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="container">
+            <h1 class="section-title">Featured Projects</h1>
+            <p class="section-subtitle">Detailed case studies of enterprise security initiatives and their measurable impact</p>
         </div>
-        <div class="case-study-content">
-          <div>
-            <h4>Challenge</h4>
-            <p>Leading a major banking institution (Bank Asia PLC) through a comprehensive cybersecurity transformation including transition to PCI-DSS v4.0.1 compliance, advanced threat detection deployment, and SOC team capability building &mdash; while maintaining continuous security operations.</p>
-            <h4>Approach</h4>
-            <p>Designed and executed an end-to-end PCI-DSS v4.0.1 compliance framework covering gap assessment, risk-based prioritization, technology integration, compliance automation, staff training, and continuous validation. Implemented RSA Netwitness, SOAR, EDR, XDR, DLP, VAPT, WAF, and IDS/IPS solutions. Developed custom SIEM correlation rules, EDR detections, and YARA/Sigma rules.</p>
-          </div>
-          <div>
-            <h4>Innovations Deployed</h4>
-            <ul>
-              <li>PCI-DSS v4.0.1 compliance framework (replicable model)</li>
-              <li>Custom YARA and Sigma detection rules</li>
-              <li>MITRE ATT&amp;CK, NIST 800-53, and OWASP-mapped playbooks</li>
-              <li>Digital forensics capability (memory analysis, disk imaging)</li>
-              <li>Behavioral analytics and adversary emulation programs</li>
-            </ul>
-            <h4>Results</h4>
-            <ul>
-              <li>80% overall security posture improvement</li>
-              <li>Successful PCI-DSS v4.0.1 regulatory certification</li>
-              <li>70% elevation in team security proficiency</li>
-              <li>Simultaneous GLBA and SOX compliance maintained</li>
-              <li>Threat modeling defense against known APT groups</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    </section>
 
-      <div class="case-study">
-        <div class="case-study-header">
-          <h3>Enterprise SOC Automation Program</h3>
-          <span class="sector-badge">Financial Services</span>
-        </div>
-        <div class="case-study-content">
-          <div>
-            <h4>Challenge</h4>
-            <p>Building enterprise-wide security operations capability for NCC Bank PLC from the ground up &mdash; deploying endpoint protection across 1,500+ endpoints, automating incident response workflows, and establishing a mature SOC with trained L1-L2 analysts over a 10-year period.</p>
-            <h4>Approach</h4>
-            <p>Architected and deployed Cortex XSOAR platform integrated with Splunk, CrowdStrike, and ServiceNow. Developed 60+ automated security playbooks. Built custom integrations using Python, PowerShell, and JavaScript. Implemented enterprise firewall infrastructure (Palo Alto, Cisco) and web application security (F5 WAF).</p>
-          </div>
-          <div>
-            <h4>Innovations Deployed</h4>
-            <ul>
-              <li>60+ automated playbooks (MITRE ATT&amp;CK/D3FEND aligned)</li>
-              <li>Cortex XSOAR multi-vendor integration architecture</li>
-              <li>Custom Python/PowerShell/JavaScript automation</li>
-              <li>SOC analyst mentorship and training program</li>
-              <li>Executive and tactical intelligence reporting</li>
-            </ul>
-            <h4>Results</h4>
-            <ul>
-              <li>45% reduction in MTTD/MTTR</li>
-              <li>1,500+ endpoints protected</li>
-              <li>80% security improvement via firewall infrastructure</li>
-              <li>80% malicious traffic blocked via WAF</li>
-              <li>70% risk reduction via vulnerability management</li>
-            </ul>
-          </div>
-        </div>
-      </div>
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">AI & Automation</span>
+                        <h2>AI-Powered Threat Detection & SIEM/SOAR Integration</h2>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h3>Challenge</h3>
+                        <p>Organizations were struggling with alert fatigue, slow incident response times, and difficulty correlating security events across multiple platforms. Traditional SIEM implementations lacked intelligent threat detection capabilities, resulting in delayed threat identification and response.</p>
+                    </div>
 
-      <div class="case-study">
-        <div class="case-study-header">
-          <h3>International Development IT Security</h3>
-          <span class="sector-badge">International Development | World Bank</span>
-        </div>
-        <div class="case-study-content">
-          <div>
-            <h4>Challenge</h4>
-            <p>Securing IT infrastructure for IDRA, a World Bank-funded international development project operating across borders. Challenges included cross-border data flows, diverse regulatory environments, nation-state threat actors, resource constraints, and highly sensitive development data requiring protection.</p>
-          </div>
-          <div>
-            <h4>Significance</h4>
-            <p>This engagement demonstrates the cross-sector and transnational applicability of the cybersecurity defense frameworks developed throughout the petitioner's career. The same methodologies that protect banking infrastructure are adapted to protect international development programs, proving their replicability and broader field impact.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+                    <div class="project-section">
+                        <h3>Solution</h3>
+                        <p>Designed and implemented an AI-powered threat detection system integrating advanced SIEM platforms with SOAR orchestration. The solution leveraged machine learning algorithms to identify anomalous behavior patterns, automated playbook execution for incident response, and intelligent alert correlation using MITRE ATT&CK framework mapping.</p>
+                        <ul class="solution-list">
+                            <li>Deployed behavioral analytics and UEBA for anomaly detection</li>
+                            <li>Created 60+ automated playbooks for phishing, malware, and insider threats</li>
+                            <li>Implemented AI-driven alert correlation reducing false positives by 40%</li>
+                            <li>Integrated threat intelligence feeds for contextual enrichment</li>
+                            <li>Built custom Python/PowerShell integrations for third-party tool connectivity</li>
+                        </ul>
+                    </div>
 
-  <footer class="footer"><p>&copy; 2025 Shakil Md. Rezwanul Bari. All rights reserved.</p></footer>
-  <script src="js/main.js"></script>
+                    <div class="project-section">
+                        <h3>Impact</h3>
+                        <ul class="impact-list">
+                            <li><strong>60% reduction</strong> in mean-time-to-detect (MTTD)</li>
+                            <li><strong>60% reduction</strong> in mean-time-to-respond (MTTR)</li>
+                            <li><strong>70% increase</strong> in threat mitigation efficiency</li>
+                            <li><strong>40% reduction</strong> in false positive alerts</li>
+                            <li><strong>30% reduction</strong> in junior analyst onboarding time</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <strong>Technologies:</strong> Splunk, Microsoft Sentinel, Palo Alto Cortex XSOAR, CrowdStrike Falcon XDR, Python, PowerShell, MITRE ATT&CK, Threat Intelligence APIs
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Enterprise Architecture</span>
+                        <h2>Zero Trust Architecture Implementation</h2>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h3>Challenge</h3>
+                        <p>Traditional perimeter-based security models were insufficient against modern threats. Organizations needed to implement Zero Trust principles to verify every access request, regardless of source, and maintain continuous trust monitoring across hybrid cloud and on-premises environments.</p>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Solution</h3>
+                        <p>Architected and deployed a comprehensive Zero Trust framework encompassing identity verification, device compliance, application access control, and continuous monitoring. The implementation integrated multiple security layers including identity platforms, endpoint detection, network segmentation, and behavioral analytics.</p>
+                        <ul class="solution-list">
+                            <li>Designed Zero Trust policy framework with least-privilege access principles</li>
+                            <li>Implemented identity-centric access control using Azure AD/Entra and Okta</li>
+                            <li>Deployed device compliance verification and conditional access policies</li>
+                            <li>Established network segmentation and microsegmentation strategies</li>
+                            <li>Integrated continuous trust monitoring using SIEM and EDR signals</li>
+                            <li>Built automated remediation workflows for compliance violations</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Impact</h3>
+                        <ul class="impact-list">
+                            <li><strong>80% reduction</strong> in unauthorized access attempts</li>
+                            <li><strong>100% visibility</strong> into all access requests and device compliance</li>
+                            <li><strong>50% faster</strong> incident response for compromised accounts</li>
+                            <li>Successful audit completion for SOC2 Type II and ISO 27001</li>
+                            <li>Eliminated lateral movement risks through network segmentation</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <strong>Technologies:</strong> Azure AD/Entra, Okta, Conditional Access, Microsoft Defender, CrowdStrike, Splunk, Palo Alto Networks, AWS IAM, Network Segmentation Tools
+                    </div>
+                </article>
+
+                <!-- Project 3 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Compliance & Governance</span>
+                        <h2>PCI-DSS v4.0.1 Compliance Transformation</h2>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h3>Challenge</h3>
+                        <p>Financial institutions faced significant compliance gaps with PCI-DSS v4.0.1 requirements. The new standard introduced stricter controls for encryption, access management, and security monitoring. Organizations needed a comprehensive approach to assess, remediate, and maintain ongoing compliance.</p>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Solution</h3>
+                        <p>Led a comprehensive compliance transformation initiative addressing all 12 PCI-DSS domains. The project encompassed security control implementation, policy development, employee training, and continuous monitoring to ensure sustained compliance.</p>
+                        <ul class="solution-list">
+                            <li>Conducted detailed gap analysis against PCI-DSS v4.0.1 requirements</li>
+                            <li>Implemented network segmentation and access control improvements</li>
+                            <li>Deployed encryption for data in transit and at rest</li>
+                            <li>Enhanced vulnerability management and patch processes</li>
+                            <li>Established security monitoring and incident response procedures</li>
+                            <li>Developed comprehensive security policies and procedures documentation</li>
+                            <li>Conducted security awareness training for all personnel</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Impact</h3>
+                        <ul class="impact-list">
+                            <li><strong>80% security enhancement</strong> across all PCI-DSS domains</li>
+                            <li><strong>100% compliance</strong> with PCI-DSS v4.0.1 requirements</li>
+                            <li>Successful audit completion with zero findings</li>
+                            <li><strong>60% reduction</strong> in security vulnerabilities</li>
+                            <li>Established continuous compliance monitoring framework</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <strong>Technologies:</strong> Qualys Nessus, Rapid7, Splunk, Palo Alto Networks, CrowdStrike, Encryption Tools, Access Control Systems, Vulnerability Scanners
+                    </div>
+                </article>
+
+                <!-- Project 4 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Endpoint Security</span>
+                        <h2>Enterprise Endpoint Protection Deployment</h2>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h3>Challenge</h3>
+                        <p>Organizations faced challenges managing endpoint security across 1,500+ devices spanning multiple locations and operating systems. Legacy antivirus solutions lacked visibility and response capabilities needed to combat modern threats including ransomware, malware, and advanced persistent threats.</p>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Solution</h3>
+                        <p>Implemented a comprehensive endpoint protection strategy combining multiple EDR/EPM solutions with centralized management and automated response capabilities. The solution provided real-time visibility into endpoint activity, threat detection, and rapid incident response.</p>
+                        <ul class="solution-list">
+                            <li>Deployed CrowdStrike Falcon across 1,500+ endpoints</li>
+                            <li>Implemented Microsoft Defender for comprehensive Windows protection</li>
+                            <li>Configured Sophos for macOS and Linux endpoints</li>
+                            <li>Established centralized endpoint management and monitoring</li>
+                            <li>Created automated response playbooks for common threats</li>
+                            <li>Implemented device compliance and threat hunting capabilities</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Impact</h3>
+                        <ul class="impact-list">
+                            <li><strong>100% endpoint visibility</strong> across all devices</li>
+                            <li><strong>95% malware detection rate</strong> improvement</li>
+                            <li><strong>50% faster</strong> threat response and remediation</li>
+                            <li>Zero ransomware incidents post-deployment</li>
+                            <li><strong>70% reduction</strong> in endpoint-related security incidents</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <strong>Technologies:</strong> CrowdStrike Falcon, Microsoft Defender, Sophos, Intune, Jamf, Centralized Management Platforms, EDR, EPM
+                    </div>
+                </article>
+
+                <!-- Project 5 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Vulnerability Management</span>
+                        <h2>Automated Vulnerability Assessment & Risk Prioritization</h2>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h3>Challenge</h3>
+                        <p>Organizations struggled with overwhelming vulnerability data from multiple scanning tools. Without intelligent prioritization, security teams couldn't focus remediation efforts on the most critical risks, leading to delayed patching and increased breach likelihood.</p>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Solution</h3>
+                        <p>Implemented an integrated vulnerability management program combining automated scanning, intelligent risk scoring, and prioritized remediation workflows. The solution used AI-enhanced analysis to correlate vulnerabilities with threat intelligence and business context.</p>
+                        <ul class="solution-list">
+                            <li>Deployed Qualys Nessus for comprehensive vulnerability scanning</li>
+                            <li>Integrated Burp Suite for web application security testing</li>
+                            <li>Implemented Metasploit for advanced penetration testing</li>
+                            <li>Created AI-driven risk scoring using threat intelligence</li>
+                            <li>Established automated remediation workflows and SLAs</li>
+                            <li>Built executive dashboards for vulnerability metrics</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Impact</h3>
+                        <ul class="impact-list">
+                            <li><strong>40% improvement</strong> in risk management efficiency</li>
+                            <li><strong>70% reduction</strong> in critical vulnerabilities</li>
+                            <li><strong>50% faster</strong> vulnerability remediation cycles</li>
+                            <li>Reduced mean-time-to-patch by 60%</li>
+                            <li>Achieved 95% patch compliance rate</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <strong>Technologies:</strong> Qualys Nessus, Burp Suite, Metasploit, OpenVAS, Rapid7, Splunk, Python, Risk Scoring Algorithms, Threat Intelligence APIs
+                    </div>
+                </article>
+
+                <!-- Project 6 -->
+                <article class="project-card">
+                    <div class="project-header">
+                        <span class="project-category">Network Security</span>
+                        <h2>Web Application Firewall (WAF) & DDoS Protection</h2>
+                    </div>
+                    
+                    <div class="project-section">
+                        <h3>Challenge</h3>
+                        <p>Critical web applications faced increasing attacks including SQL injection, cross-site scripting, and DDoS attempts. Organizations needed comprehensive protection without impacting application performance or user experience.</p>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Solution</h3>
+                        <p>Deployed enterprise-grade WAF and DDoS protection solutions with intelligent threat detection and automated response. The implementation included traffic analysis, attack pattern recognition, and real-time threat blocking.</p>
+                        <ul class="solution-list">
+                            <li>Deployed F5 WAF for advanced application protection</li>
+                            <li>Implemented Imperva for DDoS and bot protection</li>
+                            <li>Configured AWS WAF for cloud-based applications</li>
+                            <li>Established automated attack response and blocking rules</li>
+                            <li>Integrated with SIEM for security monitoring</li>
+                            <li>Implemented geographic and behavioral-based access controls</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-section">
+                        <h3>Impact</h3>
+                        <ul class="impact-list">
+                            <li><strong>80% reduction</strong> in malicious web traffic</li>
+                            <li><strong>99.9% application availability</strong> maintained</li>
+                            <li>Zero successful web application attacks post-deployment</li>
+                            <li><strong>95% DDoS attack mitigation</strong> rate</li>
+                            <li>Reduced application security incidents by 85%</li>
+                        </ul>
+                    </div>
+
+                    <div class="project-tech">
+                        <strong>Technologies:</strong> F5 WAF, Imperva, AWS WAF, Cloudflare, DDoS Protection, Bot Management, Load Balancing, Traffic Analysis
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Interested in Similar Security Solutions?</h2>
+            <p>Let's discuss how these proven methodologies can be applied to your organization's unique challenges.</p>
+            <a href="contact.html" class="btn btn-primary btn-large">Schedule a Consultation</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Shakil Md. Rezwanul Bari</h4>
+                    <p>Cybersecurity & Cloud Security Leader</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="experience.html">Experience</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="publications.html">Publications</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <ul>
+                        <li><a href="https://linkedin.com/in/rezwanulbari" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com" target="_blank">GitHub</a></li>
+                        <li><a href="mailto:rezwanbari@gmail.com">Email</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Shakil Md. Rezwanul Bari. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <style>
+        .projects-hero {
+            padding: var(--spacing-3xl) 0;
+            background: linear-gradient(135deg, rgba(250, 250, 250, 0.5) 0%, rgba(8, 145, 178, 0.05) 100%);
+            text-align: center;
+        }
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: var(--spacing-2xl);
+        }
+
+        .project-card {
+            background: rgba(255, 255, 255, 0.7);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(0, 0, 0, 0.1);
+            border-radius: var(--radius-lg);
+            padding: var(--spacing-2xl);
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-base);
+        }
+
+        .project-card:hover {
+            box-shadow: var(--shadow-lg);
+            border-color: var(--color-teal);
+        }
+
+        .project-header {
+            margin-bottom: var(--spacing-2xl);
+            padding-bottom: var(--spacing-lg);
+            border-bottom: 2px solid rgba(8, 145, 178, 0.2);
+        }
+
+        .project-category {
+            display: inline-block;
+            background: rgba(8, 145, 178, 0.15);
+            color: var(--color-teal);
+            padding: 0.5rem 1rem;
+            border-radius: 999px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .project-header h2 {
+            font-family: var(--font-primary);
+            font-size: 1.75rem;
+            font-weight: 700;
+            color: var(--color-slate-dark);
+            margin: var(--spacing-md) 0 0 0;
+        }
+
+        .project-section {
+            margin-bottom: var(--spacing-2xl);
+        }
+
+        .project-section h3 {
+            font-family: var(--font-primary);
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--color-teal);
+            margin-bottom: var(--spacing-md);
+        }
+
+        .project-section p {
+            color: var(--color-gray-dark);
+            line-height: 1.8;
+            margin-bottom: var(--spacing-md);
+        }
+
+        .solution-list,
+        .impact-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .solution-list li,
+        .impact-list li {
+            padding: var(--spacing-sm) 0 var(--spacing-sm) var(--spacing-lg);
+            color: var(--color-gray-dark);
+            line-height: 1.6;
+            position: relative;
+        }
+
+        .solution-list li::before,
+        .impact-list li::before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--color-green);
+            font-weight: bold;
+        }
+
+        .impact-list li {
+            font-weight: 500;
+        }
+
+        .project-tech {
+            margin-top: var(--spacing-lg);
+            padding-top: var(--spacing-lg);
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+            font-size: 0.9rem;
+            color: var(--color-gray-dark);
+        }
+
+        @media (max-width: 768px) {
+            .project-header h2 {
+                font-size: 1.35rem;
+            }
+
+            .project-section h3 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+
+    <script src="js/main.js"></script>
 </body>
 </html>
