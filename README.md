@@ -25,5 +25,5 @@ A full collection of frameworks, playbooks, and architecture guides:
 
 ## 📫 Connect With Me
 LinkedIn: https://linkedin.com/in/rezwanulbari  
-Email: <your email>
+Email: rezwanbari@gmail.com
 
